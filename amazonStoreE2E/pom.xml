@@ -18,6 +18,12 @@
             <artifactId>frameworkWeb</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.1.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -40,7 +46,7 @@
                                 <param>${project.build.directory}/reports/CucumberReport.json</param>
                             </jsonFiles>
                             <parallelTesting>false</parallelTesting>
-                            <testFailureIgnore>true</testFailureIgnore>
+<!--                            <testFailureIgnore>true</testFailureIgnore>-->
                         </configuration>
                     </execution>
                 </executions>

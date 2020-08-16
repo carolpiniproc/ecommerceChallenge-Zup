@@ -34,6 +34,10 @@ public class Driver {
         driver.get(url);
     }
 
+    public static String getURL() {
+        return driver.getCurrentUrl();
+    }
+
     public static void setDimension(int x,int y){
         dimension = new Dimension(x,y);
         driver.manage().window().setSize(dimension);
@@ -51,7 +55,7 @@ public class Driver {
         return wait.until(ExpectedConditions.alertIsPresent());
     }
 
-    public static WebElement waitIsClickable(By by){
+    public static WebElement waitClickAbleElement(By by) {
         return wait.until(ExpectedConditions.elementToBeClickable(by));
     }
 }
