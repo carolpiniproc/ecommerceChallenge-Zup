@@ -18,4 +18,10 @@ public class CartPage {
         }
         return false;
     }
+
+    public boolean submitLoginFormButton() {
+        return cartMap.loginForm.isDisplayed();
+    }
+
+
 }
