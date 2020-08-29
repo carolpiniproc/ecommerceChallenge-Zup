@@ -20,6 +20,7 @@ public class CartPage {
     }
 
     public boolean submitLoginFormButton() {
+        cartMap.loginForm.waitVisibleElement();
         return cartMap.loginForm.isDisplayed();
     }
 

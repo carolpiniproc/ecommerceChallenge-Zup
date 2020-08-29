@@ -26,9 +26,9 @@ Feature: Search and add to card on Amazon website
     And he adds it on the shopping cart
     Then the book "O MBA da vida real" is there
 
-  @searchAndAddABookOnKindle
-  Scenario: Search for a book and add it to the shopping cart
-    Given customer is on Amazon
-    When searches for "Berkshire Hathaway"
-    And wants a new book on Kindle
-    Then Amazon asks for login
+#  @searchAndAddABookOnKindle
+#  Scenario: Search for a book and add it to the shopping cart
+#    Given customer is on Amazon
+#    When searches for "Berkshire Hathaway"
+#    And wants a new book on Kindle
+#    Then Amazon asks for login
