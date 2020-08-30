@@ -49,7 +49,7 @@ public class BuyandFlowSteps {
     public void heAddsItOnTheShoppingCart() {
         searchPage.clickAddToCart();
         searchPage.clickCart();
-    }
+    }''
 
 
     @Then("the book {string} is there")
